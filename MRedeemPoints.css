@@ -1,0 +1,30 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+
+
+@media screen and (min-width:240px) and (max-width:480px){
+.home_button{
+background:#1fa3ff;
+color:#fff;
+font-family:'BGLight';
+font-size:16px;
+border:none;
+padding:9px 19px;
+}
+.home_button_container{
+width:100%;
+text-align:center;
+margin-top:23px;
+}
+.login_list_item label{
+font-weight:800;
+font-size:18px;
+display:block;
+margin:8px 0px;
+width:100%;
+font-family:'LatoLight';
+}
+}

@@ -1,0 +1,58 @@
+
+@font-face{
+src:url('Lato-Lig.ttf');
+font-family:'LatoLight';
+}
+#container1{
+margin-top:4%;
+}
+@font-face{
+src:url('Lato-Bol.ttf');
+font-family:'LatoBold';
+}
+.profile_button{
+background:#fff;
+color:#fff;
+font-family:'LatoLight';
+border:none;
+padding:9px 19px;
+font-size:15px;
+cursor:pointer;
+border:1px solid rgba(0,0,0,.23);
+color:rgba(0,0,0,.83);
+}
+.profile_button.selected{
+background:#1fa3ff;
+border:none;
+color:#fff;
+}
+.profile_header{
+position:fixed;
+top:0px;
+left:0px;
+height:12%;
+width:100%;
+overflow:hidden;
+border-bottom:2px solid #1fa3ff;
+}
+.profile_logo{
+float:left;
+width:30%;
+font-family:'LatoBold';
+color:#1fa3ff;
+font-size:26px;
+padding:23px 43px;
+}
+.profile_search{
+float:left;
+height:100%;
+width:48%;
+}
+.profile_name{
+float:left;
+width:8%;
+font-family:'LatoBold';
+color:#1fa3ff;
+font-size:21px;
+padding:26px 43px;
+}
